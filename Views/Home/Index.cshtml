@@ -1,0 +1,10 @@
+﻿@model DrawCard
+
+<p>Deck #: @Model.deck_id</p>
+<br />
+
+<form asp-action="DisplayDraw" asp-controller="Home">
+    <p>How many cards do you want to draw?</p>
+    <input type="number" min="1" max="52" name="c" id="c"/>
+    <input type="submit" id="DisplayDraw"/>
+</form>

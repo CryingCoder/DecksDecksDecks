@@ -1,0 +1,13 @@
+﻿@model DrawCard
+
+<h2>Here's your Draw!</h2>
+
+@foreach (Card c in Model.cards)
+{
+    <div>
+        <p>@c.value of @c.suit</p>
+        <img src="@c.image"/>
+        <br>
+
+    </div>
+}
