@@ -17,7 +17,6 @@ namespace DeckofDecks.Models
 
         }
 
-
         public DrawCard DrawPatrol(string id, int c)
         {
 
